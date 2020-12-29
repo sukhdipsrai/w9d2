@@ -10,5 +10,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 
-
 console.log("Webpack is working!");

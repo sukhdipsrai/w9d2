@@ -49,7 +49,7 @@ eval("const MovingObject = function(obj){    \n    this.pos = obj.pos;\n    this
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("const MovingObject = __webpack_require__(/*! ./moving_object.js */ \"./src/moving_object.js\");\n\nwindow.MovingObject = MovingObject;\n\nwindow.addEventListener('DOMContentLoaded', (event) => {\n  const canvas = document.getElementById(\"game-canvas\");\n\tconst ctx = canvas.getContext(\"2d\");\n})\n\n\n\n\n\nconsole.log(\"Webpack is working!\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const MovingObject = __webpack_require__(/*! ./moving_object.js */ \"./src/moving_object.js\");\n\nwindow.MovingObject = MovingObject;\n\nwindow.addEventListener('DOMContentLoaded', (event) => {\n  const canvas = document.getElementById(\"game-canvas\");\n\tconst ctx = canvas.getContext(\"2d\");\n})\n\n\n\n\nconsole.log(\"Webpack is working!\");\n\n//# sourceURL=webpack:///./src/index.js?");
 })();
 
 /******/ })()
