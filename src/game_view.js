@@ -6,10 +6,16 @@ const GameView = function(gameObject){
 };
 
 GameView.prototype.start = function(){
+    let that = this;
     let fps = function(){
-        this.currentGame.draw(this.ctx);
-        this.currentGame.moveObjects(this.ctx)
+        // debugger;
+        that.currentGame.draw(that.ctx);
+        that.currentGame.movingObjects(that.ctx);
+        // console.log("inside fps");
     }
 
-    setInterval( fps() ,20);
+    window.setInterval(fps, 30);
+    
 }
+
+module.exports = GameView;
